@@ -4,7 +4,7 @@
      
      return (
          <div className="header">
-             <div className="resume pulse">Resume</div>
+             <a className="resume-cont" href="https://docs.google.com/document/d/1e4GfDtFHHNHLS7hKYcXIEQeR7IHHi6q2YMrFo7W4Yi8/edit?usp=sharing"><div className="resume pulse">Resume</div></a>
              <div className="profile-pic"></div>
          <a><h1 className="name pulse"><span className="name-greet">hello I'm</span><br/>Nicholas Perez</h1></a>
          <nav className="nav">

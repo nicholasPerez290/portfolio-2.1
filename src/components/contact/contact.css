@@ -25,6 +25,12 @@
     margin-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    transition: .3s;
+    font-weight: 600;
+} 
+.cont:hover {
+    opacity: .5;
+    transition: 1s;
 }
 #phone {
     border-bottom: none;

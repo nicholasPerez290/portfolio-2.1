@@ -4,10 +4,12 @@
      
      return (
          <div className="header">
-         <a onClick={() => handlePageChange('Head')}><h1 className="name pulse"><span className="name-greet">hello I'm</span><br/>Nicholas Perez</h1></a>
+             <div className="resume pulse">Resume</div>
+             <div className="profile-pic"></div>
+         <a><h1 className="name pulse"><span className="name-greet">hello I'm</span><br/>Nicholas Perez</h1></a>
          <nav className="nav">
-             <div onClick className="nav-el pulse" onClick={() => handlePageChange('Project')}>Projects</div>
-             <div className="nav-el pulse" onClick={() => handlePageChange('Contact')}>Contacts</div>
+             <div onClick className="nav-el pulse" id={currentPage === 'Project' ? 'active' : ''} onClick={() => handlePageChange('Project')}>Projects</div>
+             <div className="nav-el pulse" id={currentPage === 'Contact' ? 'active' : ''} onClick={() => handlePageChange('Contact')}>Contacts</div>
          </nav>
          </div>
      )

@@ -1,0 +1,36 @@
+.contact-cont a {
+    color: white;
+}
+
+.contact-cont {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    flex-direction: column;
+    background-color: dimgray;
+    max-width: fit-content;
+    margin:auto;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.cont {
+    text-decoration: none;
+    color: dimgray;
+    font-size: 3em;
+    border-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#phone {
+    border-bottom: none;
+}
+.logo {
+    max-height: 70px;
+    max-width: 50px;
+    margin-right: 10px;
+}

@@ -1,4 +1,5 @@
 import Card from "../card/Card"
+import "./project.css"
 export default function Project() {
     const projects = [{
         name: "Fitness-mon",

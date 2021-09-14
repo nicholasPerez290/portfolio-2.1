@@ -1,7 +1,23 @@
 .header {
     text-align: center;
-    margin-top: 15%;
+    margin-top: 2%;
     
+}
+.resume {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: -10px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.profile-pic {
+    min-height:20em;
+    max-width: 20em;
+    border-radius: 100%;
+    background-image: url(./IMG_0227.JPG);
+    background-size: cover;
+    background-position-x: right;
+    margin:auto;
 }
 .name {
     font-size: 4em;
@@ -20,6 +36,9 @@
 }
 .pulse:hover {
     animation: pulse-animate 1.5s infinite
+}
+#active {
+    color: dimgray;
 }
 
 @keyframes pulse-animate {
